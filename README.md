@@ -1,6 +1,6 @@
 # humanize-text-skill
 
-A Claude Code skill that edits AI-generated text so it reads like it was written by a skilled human. It also works as a standalone prompt for any LLM.
+An AI agent skill that edits AI-generated text so it reads like it was written by a skilled human. Works with any agent that supports the SKILL.md format (Claude Code, Claude Desktop, and other agents). It also works as a standalone prompt for any LLM.
 
 Most "humanizer" tools only fix surface style: they swap out "delve" and "tapestry" and call it done. Research shows that barely changes detectability. The structural choices are what give AI away — over-explained themes, tidy single-track plots, morally simple protagonists, every section wrapped up with a summary. This skill edits at both levels, in order:
 
@@ -10,9 +10,9 @@ Most "humanizer" tools only fix surface style: they swap out "delve" and "tapest
 
 Guardrails: facts, quotes, and register stay unchanged. No invented details, no forced quirkiness.
 
-## Install as a Claude Code skill
+## Install
 
-Copy the `humanize-text` folder into your personal skills directory:
+Copy the `humanize-text` folder into your agent's skills directory. For Claude Code that is:
 
 ```
 # macOS / Linux
@@ -22,11 +22,13 @@ cp -r humanize-text ~/.claude/skills/humanize-text
 xcopy humanize-text %USERPROFILE%\.claude\skills\humanize-text /E /I
 ```
 
-Start a new Claude Code session and say things like "humanize this", "make this sound less AI", or paste text and ask for a natural rewrite. The skill triggers automatically.
+For other agents, follow their skill installation docs — the skill is a single `SKILL.md` file with standard frontmatter, no scripts or assets.
+
+Start a new session and say things like "humanize this", "make this sound less AI", or paste text and ask for a natural rewrite. The skill triggers automatically.
 
 ## Use as a plain prompt
 
-Not using Claude Code? Paste the contents of [humanize-ai-text-prompt.md](humanize-ai-text-prompt.md) into any LLM, then paste the text you want edited.
+Not using an agent that supports skills? Paste the contents of [humanize-ai-text-prompt.md](humanize-ai-text-prompt.md) into any LLM, then paste the text you want edited.
 
 ## Why structure first
 
@@ -36,5 +38,5 @@ Not using Claude Code? Paste the contents of [humanize-ai-text-prompt.md](humani
 
 ## Files
 
-- [humanize-text/SKILL.md](humanize-text/SKILL.md) — the Claude Code skill
+- [humanize-text/SKILL.md](humanize-text/SKILL.md) — the AI agent skill
 - [humanize-ai-text-prompt.md](humanize-ai-text-prompt.md) — the same methodology as a standalone prompt
