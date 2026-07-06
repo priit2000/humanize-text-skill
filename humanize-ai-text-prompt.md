@@ -56,4 +56,16 @@ Work through the passes below in order. Preserve the author's meaning, facts, an
 - Match the original register (formal stays formal, casual stays casual).
 - If the text is informational, weight Pass 2 heavily; if it is narrative/fiction, weight Pass 1 heavily. Apply both regardless.
 
-Before returning the result, reread it once and ask: does any sentence explain its own significance, follow a formula above, or use a word from the vocabulary list? If yes, fix it.
+## Pass 4 — Verify loop
+
+After producing a draft, act as a detector, not the writer. Scan the draft against this checklist:
+
+1. Any sentence that explains its own significance, states the moral, or wraps up a section?
+2. Any word from the Pass 2 vocabulary list, or "serves as / stands as / represents"?
+3. Any formula: negative parallelism, rule of three, trailing "-ing" interpretation clause, weasel attribution?
+4. Em dash count noticeably higher than a human would use? Uniform sentence lengths?
+5. Any fact, quote, number, or name that differs from the original? (This one is a hard fail — restore the original fact.)
+
+If any check hits, fix the flagged spots and scan again. Repeat until a scan comes back clean, up to 3 rounds. Do not loop past 3 — over-polishing reintroduces smoothness, which is itself a tell.
+
+Output only the final text. Do not show the intermediate drafts or the checklist results unless the user asks.
