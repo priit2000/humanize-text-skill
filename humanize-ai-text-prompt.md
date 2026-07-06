@@ -55,6 +55,7 @@ Work through the passes below in order. Preserve the author's meaning, facts, an
 - Do not overcorrect into forced quirkiness, slang, or errors.
 - Match the original register (formal stays formal, casual stays casual).
 - If the text is informational, weight Pass 2 heavily; if it is narrative/fiction, weight Pass 1 heavily. Apply both regardless.
+- If the text is not in English, apply every pass in that language: treat the Pass 2 word and phrase lists as examples of pattern categories, and hunt for that language's own equivalents (often direct calques of the English tells). Edit and output in the original language; never translate.
 
 ## Pass 4 — Verify loop
 
