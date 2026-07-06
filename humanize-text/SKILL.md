@@ -5,69 +5,52 @@ description: Use whenever the user wants AI-generated text to read like human wr
 
 # Humanize AI text
 
-Revise AI-generated text so it reads like it was written by a skilled human. Fixing surface style alone (removing clichés, purple prose) barely changes detectability — the structural choices are what give AI away. Edit at two levels: structure first, then surface.
+You're an editor. Your job is to take AI-generated text and revise it until it reads like a skilled person wrote it. One thing to know before you start: cleaning up the prose alone doesn't work. Studies that stripped clichés and purple prose out of AI stories found the edited versions were still detectable, because the giveaway isn't the wording. It's the structure. So edit the structure first and the sentences second.
 
-Work through the passes below in order. Preserve the author's meaning, facts, and voice. Do not add fake facts. Output only the revised text unless the user asks for an explanation of changes.
+Keep the author's meaning, facts, and voice. Don't add anything you can't find in the original. Return only the revised text unless the user asks for notes.
 
-## Pass 1 — Structure (most important)
+## First pass: structure
 
-**Stop explaining the meaning.** AI text spells out its theme, moral, or significance; human text trusts the reader to infer it. Delete sentences that state the lesson learned, summarize the point just made, or tell the reader why something matters. If a character arc or argument already shows the idea, cut the sentence that announces it. End sections without a wrap-up; never end with "In summary," "In conclusion," or a restatement of the opening.
+Start with the explaining. AI text tells you what it means: it states the theme, announces the lesson, wraps every section up with a little summary of the point it just made. People don't. Cut every sentence that explains its own significance. If the story or argument already shows the idea, the sentence announcing it has to go. Never end on "In summary" or a restatement of the opening. Just end.
 
-**Break the straight line.** AI narratives and arguments run in a single tidy causal chain from setup to resolution. Humans digress, jump in time, leave loose ends. Where the text allows: reorder events non-chronologically, delay a key revelation, let a secondary thread go unresolved, allow an ambiguous ending instead of tidy internal acceptance. Not everything needs to connect back to the main theme.
+Then look at the shape. AI writes in a straight line, one tidy causal chain from setup to resolution, and it resolves things by having the protagonist quietly come to terms with something. Human writing is messier. Where the text allows it, reorder events, hold a revelation back, leave a thread hanging, let the ending stay ambiguous. Some things don't need to connect to anything.
 
-**Name feelings plainly; cut bodily metaphor.** AI renders every emotion as a tightening chest, cold sweat, a held breath, or weather/lighting that mirrors mood, and overuses smell imagery. Humans often just say "she was afraid" or "he felt relieved." Replace most somatic descriptions of emotion with direct emotion words or with action. Keep at most one strong physical image per scene.
+Emotions next. AI never says "she was afraid." It gives you the tightening chest, the cold sweat, the lamplight dimming to match her mood, and an improbable amount of smell. Swap most of that for the plain feeling word or for action. One strong physical image per scene is plenty.
 
-**Engage the real world specifically.** Replace vague allusions ("a famous philosopher once said," "reminiscent of classic noir") with specific named books, authors, songs, brands, places — or delete the allusion. Where the register allows, address the reader directly or add an aside; AI writes as though no one is watching.
+Then the outside world. AI gestures at "a famous philosopher" and "classic noir"; people name the book, the author, the song, the street. Make references specific or cut them. And if the register allows it, talk to the reader once in a while. AI writes as though no one is watching.
 
-**Roughen the moral geometry.** Make protagonists and positions more ambivalent. Let the resolution come from outside the protagonist (luck, another character, circumstance) rather than from their inner growth. Cut dialogue that exists only to debate the story's philosophy; let dialogue do mundane work.
+Last, flatten the moral geometry a little. Let characters and positions stay ambivalent, let the resolution come from luck or from someone else rather than inner growth, and cut dialogue that only exists to debate the theme. Dialogue can just order coffee.
 
-## Pass 2 — Surface style
+## Second pass: sentences
 
-**Cut significance inflation.** Delete or flatten: "stands as a testament to," "plays a vital/pivotal/crucial role," "underscores/highlights its importance," "reflects broader trends," "marking a pivotal moment," "enduring legacy," "evolving landscape," "rich tapestry," "setting the stage for."
+Delete significance inflation wherever you find it: "stands as a testament to", "plays a pivotal role", "underscores its importance", "reflects broader trends", "marking a pivotal moment", "enduring legacy", "rich tapestry", "setting the stage for". The sentence usually survives without the phrase. Sometimes the whole sentence goes.
 
-**Cut trailing participle analysis.** Remove "-ing" clauses bolted onto sentence ends that add interpretation: "..., highlighting the collaborative nature of...", "..., ensuring...", "..., fostering...", "..., reflecting...". End the sentence at the fact.
+Cut the trailing "-ing" clause that AI bolts onto sentence ends to interpret them: "..., highlighting the collaborative nature of...", "..., ensuring...", "..., fostering...", "..., reflecting...". End at the fact.
 
-**Purge AI vocabulary.** Replace or delete: delve, tapestry, vibrant, pivotal, crucial, intricate, meticulous, showcase, boasts, garner, bolster, foster, underscore, testament, landscape (abstract), interplay, nestled, groundbreaking, renowned, "diverse array," "align with," "valuable insights." Use the plain word: wrote not authored, used not utilized, moved not relocated, died not passed away.
+Swap the AI vocabulary for plain words: delve, tapestry, vibrant, pivotal, crucial, intricate, meticulous, showcase, boasts, garner, bolster, foster, underscore, testament, landscape, interplay, nestled, groundbreaking, renowned, "diverse array", "align with", "valuable insights". Wrote, not authored. Used, not utilized. Moved, not relocated. Died, not passed away.
 
-**Restore plain copulas.** Change "serves as," "stands as," "represents," "functions as," "refers to" back to "is/was." Change "features/offers/maintains" back to "has."
+Put the plain verbs back. "Serves as", "stands as" and "represents" become "is". "Features", "offers" and "maintains" become "has". "Refers to" becomes "is".
 
-**Kill the formulas.**
-- Negative parallelisms: "not just X, but Y," "It's not X — it's Y," "X rather than Y" as a rhetorical flourish.
-- Rule of three: break up constant triplets of adjectives or phrases; use one item, or two, or four.
-- "Despite these challenges..." / "Challenges and Future Outlook" scaffolding.
-- Didactic disclaimers: "it's important to note," "worth noting," "keep in mind."
-- Weasel attributions: "experts argue," "observers have noted," "many believe" — name the source or cut the claim.
+Break the formulas. No "not just X, but Y". No "It's not X, it's Y". No constant triplets of adjectives or phrases; use one item, or two, or four. No "Despite these challenges". No "it's important to note". No "experts argue" without a named expert.
 
-**Fix the typography and formatting.** Reduce em dashes; prefer commas, parentheses, or a period. Use straight quotes if the medium calls for them. Cut most bold emphasis. Convert bullet lists with bolded inline headers into prose. Use sentence case in headings. Remove tables that should be sentences.
+Fix the typography while you're at it. Fewer em dashes; commas, parentheses and periods do the work. Cut most of the bold. Turn bullet lists with bold lead-ins into prose. Headings in sentence case. Tables that should be sentences become sentences.
 
-**Let words repeat.** AI cycles through synonyms to avoid repetition ("the artist... the painter... the creative visionary"). Humans reuse the same word. Pick the natural word and keep using it.
+And let words repeat. AI cycles through synonyms because it's penalized for repetition; a person picks the right word and keeps using it.
 
-## Pass 3 — Add human texture
+## Third pass: texture
 
-- Vary sentence length hard: some very short. Some long ones that wander a little before arriving.
-- Allow hedges and intensifiers where natural: "very," "perhaps," "tends to," "sort of."
-- Allow an occasional definitive or superlative claim where warranted: "the first," "the only," "one of the best."
-- Allow mildly wordy human constructions now and then: "the fact that," "in order to," "as a result of."
-- Keep one or two imperfections — an aside, an opinion, a slightly informal phrase. Do not sand the text perfectly smooth; smoothness is the tell.
+Vary the sentences hard. Some very short. Some that take their time getting where they're going. Let in a "very", a "perhaps", a "sort of" where it sounds natural, and the odd flat definitive claim too: "the first", "the only", "one of the best". A mildly wordy human phrase now and then does no harm: "the fact that", "in order to", "as a result of". Leave an aside or an opinion in place. Don't sand everything smooth. Smooth is the tell.
 
 ## Guardrails
 
-- Do not change facts, quotes, or data. Do not invent sources or details.
-- Do not overcorrect into forced quirkiness, slang, or errors.
-- Match the original register (formal stays formal, casual stays casual).
-- If the text is informational, weight Pass 2 heavily; if it is narrative/fiction, weight Pass 1 heavily. Apply both regardless.
-- If the text is not in English, apply every pass in that language: treat the Pass 2 word and phrase lists as examples of pattern categories, and hunt for that language's own equivalents (often direct calques of the English tells). Edit and output in the original language; never translate.
+Facts, quotes and data stay as they are. No invented sources or details. Match the original register: formal stays formal, casual stays casual. If the text is informational, the second pass matters most; if it's a story, the first one does. Do all three either way.
 
-## Pass 4 — Verify loop
+One more thing: if the text isn't in English, work in its language. The word lists above are English examples of pattern categories, and most languages have their own versions of the same tells, often direct calques. Hunt for those. Edit and output in the original language. Never translate.
 
-After producing a draft, act as a detector, not the writer. Scan the draft against this checklist:
+## Last pass: verify
 
-1. Any sentence that explains its own significance, states the moral, or wraps up a section?
-2. Any word from the Pass 2 vocabulary list, or "serves as / stands as / represents"?
-3. Any formula: negative parallelism, rule of three, trailing "-ing" interpretation clause, weasel attribution?
-4. Em dash count noticeably higher than a human would use? Uniform sentence lengths?
-5. Any fact, quote, number, or name that differs from the original? (This one is a hard fail — restore the original fact.)
+When you have a draft, switch roles. You're not the writer now, you're a detector. Scan the draft and ask: does any sentence explain its own significance, state the moral, or wrap up a section? Is any word from the vocabulary list still there, or a "serves as" or "represents"? Any formula left, a negative parallelism, a triplet, a trailing "-ing" clause, an unnamed expert? More em dashes than a person would use? Sentences all the same length? And the hard one: does any fact, quote, number or name differ from the original? That last check is a hard fail. Restore the original fact.
 
-If any check hits, fix the flagged spots and scan again. Repeat until a scan comes back clean, up to 3 rounds. Do not loop past 3 — over-polishing reintroduces smoothness, which is itself a tell.
+If a scan finds something, fix it and scan again. Stop as soon as a scan comes back clean, and stop after three rounds no matter what, because over-polishing brings back the smoothness you just removed.
 
-Output only the final text. Do not show the intermediate drafts or the checklist results unless the user asks.
+Output only the final text. Keep the drafts and the checklist to yourself unless the user asks.
