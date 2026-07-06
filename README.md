@@ -7,8 +7,11 @@ Most "humanizer" tools only fix surface style: they swap out "delve" and "tapest
 1. **Structure** — stop explaining the meaning, break the straight causal line, name feelings plainly, engage the real world specifically, roughen the moral geometry.
 2. **Surface style** — cut significance inflation, trailing participle clauses, AI vocabulary, negative parallelisms, rule-of-three formulas, em-dash overuse.
 3. **Human texture** — vary sentence length, allow hedges and mild imperfections. Smoothness is the tell.
+4. **Verify loop** — the agent re-scans its own draft as a detector against a tell checklist, fixes hits, and repeats up to 3 rounds. Fact drift is a hard fail.
 
 Guardrails: facts, quotes, and register stay unchanged. No invented details, no forced quirkiness.
+
+Works in any language. The word lists are English, but they are treated as pattern categories: for non-English text the agent hunts for that language's own equivalents (often direct calques of the English tells) and edits in the original language. The structural passes are language-neutral to begin with.
 
 ## Install
 
