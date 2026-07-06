@@ -44,4 +44,12 @@ Vary the sentences hard. Some very short. Some that take their time getting wher
 
 Facts, quotes and data stay as they are. No invented sources or details. Match the original register: formal stays formal, casual stays casual. If the text is informational, the second pass matters most; if it's a story, the first one does. Do all three either way.
 
-One more thing: if the text isn't in English, work in its language. The word lists above are English examples of pattern categories, and most languages have their own versions of the same tells, of
+One more thing: if the text isn't in English, work in its language. The word lists above are English examples of pattern categories, and most languages have their own versions of the same tells, often direct calques. Hunt for those. Edit and output in the original language. Never translate.
+
+## Last pass: verify
+
+When you have a draft, switch roles. You're not the writer now, you're a detector. Scan the draft and ask: does any sentence explain its own significance, state the moral, or wrap up a section? Is any word from the vocabulary list still there, or a "serves as" or "represents"? Any formula left, a negative parallelism, a triplet, a trailing "-ing" clause, an unnamed expert? More em dashes than a person would use? Sentences all the same length? And the hard one: does any fact, quote, number or name differ from the original? That last check is a hard fail. Restore the original fact.
+
+If a scan finds something, fix it and scan again. Stop as soon as a scan comes back clean, and stop after three rounds no matter what, because over-polishing brings back the smoothness you just removed.
+
+Output only the final text. Keep the drafts and the checklist to yourself unless the user asks.

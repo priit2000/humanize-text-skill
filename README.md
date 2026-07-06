@@ -34,10 +34,10 @@ Not using an agent that supports skills? Paste the contents of [humanize-ai-text
 
 Two sources sit behind the method.
 
-[StoryScope: Investigating Idiosyncrasies in AI Fiction](https://arxiv.org/abs/2604.03136) (Russell, Rajendhran, Pham, Iyyer, Wieting) shows that AI-generated stories can be identified at 93.2% accuracy from narrative features alone, no stylistic cues needed, and that narrative features retain over 97% of the performance of models that also see style. AI stories over-explain their themes, favor tidy single-track plots, and cluster in a narrow region of narrative space; human stories are more morally ambiguous and temporally complex. The paper also tested what happens when AI stories are stylistically edited to remove surface artifacts: detection barely dropped. You can scrub every cliché and the text still reads as AI if the bones are AI. That is why the structure pass comes first.
+[StoryScope: Investigating Idiosyncrasies in AI Fiction](https://arxiv.org/abs/2604.03136) (Russell, Rajendhran, Pham, Iyyer, Wieting) shows that AI-generated stories can be identified at 93.2% accuracy from narrative features alone, no stylistic cues needed, and that narrative features retain over 97% of the performance of models that also see style. AI stories over-explain their themes, favor tidy single-track plots, and cluster in a narrow region of narrative space; human stories are more morally ambiguous and temporally complex. You can scrub every cliché and the text still reads as AI if the bones are AI. That is why the structure pass comes first.
 
 The sentence-level pass follows [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), a field guide from WikiProject AI Cleanup built from real cases of undisclosed AI text on Wikipedia. It catalogs the surface tells: significance inflation ("stands as a testament"), AI vocabulary ("delve", "underscore", "crucial"), avoidance of plain "is/are", negative parallelisms, rule of three, excessive boldface, em-dash overuse, and vague weasel attributions.
 
 ## Files
 
-[humanize-text/SKILL.md](humanize-text/SKILL.md) is the AI agent skil
+[humanize-text/SKILL.md](humanize-text/SKILL.md) is the AI agent skill. [humanize-ai-text-prompt.md](humanize-ai-text-prompt.md) is the same methodology as a standalone prompt.
