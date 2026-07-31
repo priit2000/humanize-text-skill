@@ -53,4 +53,16 @@ When you have a draft, switch roles. You're not the writer now, you're a detecto
 
 If a scan finds something, fix it and scan again. Stop as soon as a scan comes back clean, and stop after three rounds no matter what, because over-polishing brings back the smoothness you just removed.
 
+## Final step: dash cleanup script (mandatory)
+
+After the verify pass, always run the bundled script on the final text. It removes every typographic dash in two passes: first ` <dash> ` (space, dash, space) becomes `, ` (comma, space) for U+2010, U+2011, U+2012, U+2013, U+2014 (em dash), and U+2015; then any remaining dash character, now including the U+2212 minus sign, becomes a keyboard hyphen (U+002D). The minus sign skips pass 1 so "5 − 3" comes out as "5 - 3", not "5, 3".
+
+If the text is already in a file, run the script on it directly. If the text is inline, write it to a temp file first, run the script, and read the result back:
+
+```
+node <this skill's folder>/scripts/fix-dashes.js <file>
+```
+
+The script edits in place and prints replacement counts. If it warns that dash characters remain, something went wrong: inspect and rerun. Reread the file after running, and reflow any sentence the comma substitution made ungrammatical (for example a dash that introduced a list). The script output is the text you deliver.
+
 Output only the final text. Keep the drafts and the checklist to yourself unless the user asks.
