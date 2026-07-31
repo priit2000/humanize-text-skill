@@ -35,6 +35,10 @@ Break the formulas. No "not just X, but Y". No "It's not X, it's Y". No constant
 
 Fix the typography while you're at it. Fewer em dashes; commas, parentheses and periods do the work. Cut most of the bold. Turn bullet lists with bold lead-ins into prose. Headings in sentence case. Tables that should be sentences become sentences.
 
+Break up the walls of text. One idea per sentence, one idea per paragraph. Five or six lines is as long as a paragraph gets before it needs a break.
+
+Never leave a heading empty. A heading is followed by text, then the next heading comes. If an h2 runs straight into an h3 with nothing in between, write the line that belongs there or drop one of the headings.
+
 And let words repeat. AI cycles through synonyms because it's penalized for repetition; a person picks the right word and keeps using it.
 
 ## Third pass: texture
